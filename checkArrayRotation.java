@@ -12,7 +12,7 @@ public class checkArrayRotation {
         // but these rotated elements will also be inc,
         // and there will be a terminal pt where the rotated ele and the first ele (without rotaion first or min ele) will meet
         // here the difference between the diffrence b/w last rotated ele and the first or min ele will be negative
-        //indicating the index of the first element 
+        //and the index next to terminal pt will be indicating the index of the first element 
         // and this index will be equal to the array rotation as explained above    
         for (int i = 0; i < arr.length; i++) {
             int d = arr[i+1] - arr[i];
