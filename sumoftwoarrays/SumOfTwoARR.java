@@ -12,7 +12,7 @@ public class SumOfTwoARR {
     public static void sumOfArray(int[] a1, int[] a2, int[] a3) {
         int i = a1.length-1, j = a2.length-1,  k = a3.length-1;
         int carri = 0, num = 0;
-        while (i >= 0 && j >= 0) {
+        while (i >= 0 || j >= 0) {
             if(i >= 0 && j >= 0){
                 num = a1[i] + a2[j] + carri;
             }else if (i >= 0 && j < 0) {
